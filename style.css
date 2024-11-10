@@ -90,8 +90,8 @@ button:hover {
 
 
 @media (max-width: 768px) {
-    #resumeForm {
-        width: 95%;
+    #resumeOutput {
+        width: 600px;
     }
 }
 
