@@ -1,0 +1,158 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'popins' 'sans-serif';
+    color: #fff;
+}
+
+body {
+    background: url('./bg.jpg') no-repeat;
+    background-size: cover;
+}
+
+.main-container {
+    margin-top: 50px;
+}
+
+.container {
+    margin: auto;
+    width: 600px;
+    border: 2px solid purple;
+    box-shadow: 0 0 15px #C65BCF;
+    border-radius: 15px;
+    padding: 25px;
+    align-items: center;
+    backdrop-filter: blur(15px);
+
+}
+
+.container h1 {
+    font-size: 30px;
+    text-align: center;
+    margin: 30px 0;
+    color: #C65BCF;
+
+}
+
+.container label {
+    display: block;
+    margin: 18px 0px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.container input {
+    font-size: 16px;
+    padding: 12px 10px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid purple;
+    background: transparent;
+    color: #fff;
+}
+
+.container textarea {
+    font-size: 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border: 2px solid purple;
+    border-radius: 5px;
+    padding: 12px 10px;
+    background: transparent;
+    color: #fff;
+
+}
+
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #C65BCF;
+    color: #f0f4f8;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+button:hover {
+    background: transparent;
+    color: #C65BCF;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+    #resumeForm {
+        width: 95%;
+    }
+}
+
+
+
+#resumeOutput {
+
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid purple;
+    border-radius: 15px;
+    box-shadow: 0 0 15px #C65BCF;
+    margin-top: 30px;
+    backdrop-filter: blur(20px);
+
+
+}
+
+#resumeOutput h2 {
+    color: #C65BCF;
+    padding: 20px;
+    text-align: center;
+    font-size: 25px;
+}
+
+#resumeOutput p {
+    flex-direction: column;
+    padding: 18px 15px;
+    font-size: 22px;
+
+}
+
+#resumeOutput p input {
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 18px;
+
+}
+
+#resumeOutput textarea {
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 18px;
+}
+
+#resumeOutput h3 {
+    font-size: 22px;
+    padding: 18px 0px;
+
+}
+
+.profilepicture {
+    display: block;
+    margin: 0 auto;
+    border: 2px solid purple;
+    box-shadow: 0 0 10px #C65BCF;
+    border-radius: 500%;
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+}

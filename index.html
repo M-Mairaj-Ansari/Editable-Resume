@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editable Resume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container">
+    <div class="container">
+
+        <h1>Editable Resume By Mairaj Ansari</h1>
+
+        <form action="" id="resumeForm">
+
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" placeholder="Enter Your Name" required><br>
+          
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email" placeholder="Enter Your Email" required><br>
+
+            <label for="phone">Phone Number</label>
+            <input type= "number" name="phone" id="phone" placeholder="03xxxxxx" required> <br>
+
+            <label for="profilepicture">Profile Picture</label>
+            <input type="file" name="profilepicture" id="profilepicture" accept="image/*" required>
+            
+            <label for="education">Education</label>
+            <textarea name="education" id="education" rows="4" placeholder="Enter Your Education Here" required></textarea>
+            
+            <label for="skills">Skills</label>
+            <textarea name="skills" id="skills" rows="4" placeholder="Enter Your Skill Here" required></textarea>
+
+            
+            <label for="exprience">Work Exprience</label>
+            <textarea name="exprience" id="exprience" rows="4" placeholder="Enter Your Exprience Here" required></textarea>
+
+            <button type="submit">Generate Resume</button>
+        </form>
+    </div>
+</div>
+
+
+    <div id="resumeOutput" targat="blank">
+        <!-- Generate Output -->
+    </div>
+
+ <script src="app.js"></script>
+
+</body>
+</html>
